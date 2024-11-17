@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="#E6E6FA"
+             Padding="20">
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         Spacing="15">
+
+        <Label Text="Sobre o Aplicativo"
+               FontSize="32"
+               FontAttributes="Bold"
+               TextColor="#4B0082"
+               HorizontalOptions="Center" />
+
+        <Label Text="Desenvolvedor: Erika Queiroz"
+               FontSize="Large"
+               TextColor="#4B0082"
+               HorizontalOptions="Center" />
+
+        <Label Text="Ano de Desenvolvimento: 2024"
+               FontSize="Large"
+               TextColor="#4B0082"
+               HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>
