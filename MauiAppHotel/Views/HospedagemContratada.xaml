@@ -8,7 +8,7 @@
     <VerticalStackLayout VerticalOptions="CenterAndExpand">
 
         <Label Text="{Binding QuartoSelecionado.Descricao}"
-               TextColor="{StaticResource Primary}"
+               TextColor="BlueViolet"
                FontFamily="Kalam"
                FontSize="50"
                HorizontalTextAlignment="Center"/>
@@ -18,13 +18,13 @@
                 <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                     <Label Text="Adultos: " />
                     <Label Text="{Binding QntAdultos}" 
-                           TextColor="{StaticResource Primary}" />
+                           TextColor="BlueViolet" />
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                     <Label Text="Crianças: " />
                     <Label Text="{Binding QntCriancas}" 
-                           TextColor="{StaticResource Primary}" />
+                           TextColor="BlueViolet" />
                 </HorizontalStackLayout>
             </StackLayout>
         </Frame>
@@ -38,15 +38,15 @@
 
                 <Label Grid.Row="1" Grid.Column="0" 
                        Text="{Binding DataCheckIn, StringFormat='{}{0:dd/MM/yyyy}'}"
-                       TextColor="{StaticResource Primary}" />
+                       TextColor="BlueViolet" />
 
                 <Label Grid.Row="1" Grid.Column="1" 
                        Text="{Binding DataCheckOut, StringFormat='{}{0:dd/MM/yyyy}'}"
-                       TextColor="{StaticResource Primary}" />
+                       TextColor="BlueViolet" />
 
                 <Label Grid.Row="1" Grid.Column="2" 
                        Text="{Binding Estadia}"
-                       TextColor="{StaticResource Primary}"/>
+                       TextColor="BlueViolet"/>
             </Grid>
         </Frame>
 
@@ -54,7 +54,7 @@
             <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                 <Label Text="Valor Total: " />
                 <Label Text="{Binding ValorTotal, StringFormat='{}{0:c}'} "
-                       TextColor="{StaticResource Primary}" />
+                       TextColor="BlueViolet" />
             </HorizontalStackLayout>
         </Frame>
 
